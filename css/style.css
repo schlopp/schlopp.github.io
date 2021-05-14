@@ -1,19 +1,23 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+* {
   padding: 0;
   margin: 0;
-	height: 100%;
-	width: 100%;
+  font-family: Raleway;
+}
+.container {
+  height: 100%;
+  width: 100%;
   background-color: #2c2f33;
-  font: Roboto;
   color: #ffffff;
 }
 .container h1 {
   padding-left: 5vw;
   padding-top: 5vw;
-  font-size: 40px;
+  font-size: 32px;
 }
-.container h3 {
+.container h2 {
   padding-left: 5vw;
   padding-top: 5vw;
-  font-size: 10px;
+  font-size: 24px;
 }
